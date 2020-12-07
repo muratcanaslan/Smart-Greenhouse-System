@@ -1,0 +1,1856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DB88C983CDFF94B64374273EB5D3D87D /* UIRefreshControl+AFNetworking.m */; };
+		01FCBA8A7EE361351C67B5152CBBF049 /* CardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A1342C26A419F04684A49C137A3615 /* CardsLayout.swift */; };
+		0252F20382DA88C583581C4305530D93 /* Particle-SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 631C413113888D8B9E0C9C7C40AFA293 /* Particle-SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 997403AB85EFB5E6B3E5F7013D450521 /* UIProgressView+AFNetworking.m */; };
+		07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B202EE17B0EE8D1664C6FB91206BA5A4 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F30B15B1E9FD878007C41ED8B8CCFA /* OnboardingContantViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E8F401ED214F414A3C2DFBE234D82 /* OnboardingContantViewItem.swift */; };
+		08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C83CB4F26F31EB87C11CA0FA5DDA002 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B3D80A5C77BE4E8E8ED9C8543AAB21 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17290FC33443075BAF0FC8C9AD5FB5A2 /* CardSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */; };
+		1810B3BA4FC57EF05DD64A6E99FD1FAB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133D5D967D015C0257CEC2A480B56EDB /* SystemConfiguration.framework */; };
+		1C13E7DAD57262904BD89025EA55F7A4 /* CardSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73851CDC5F7E6DB56DE3AAB8639C3D90 /* CardSlider-dummy.m */; };
+		1CFCD3E6E9128AFAD3AD913F3FF5B289 /* CardTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1842E5C7D6ED92BA89908A944D0DF /* CardTitleView.swift */; };
+		1D8BE755A684FC132E1C0D62AD35A56A /* FillAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3200402D425EA367F3F59DE8DD2C9437 /* FillAnimationView.swift */; };
+		1E43AD13C988387C35D65D341FA2A8C8 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7B8A850339346E7DC64BDD3F52F88 /* PageView.swift */; };
+		223F3449974BEA68231F1EA9C6E1FE8D /* paper-onboarding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 511165B9F8580B927765348A660EA6C9 /* paper-onboarding-dummy.m */; };
+		232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B372590A687EC794CD6E915C23F309AE /* UIImageView+AFNetworking.m */; };
+		2389208835126ADD6B969F7031EBFDCB /* PaperOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B329C0E58AD4F89A5FC40AF8EC5DDAE /* PaperOnboarding.swift */; };
+		2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A3B195DC95D593F243C49A4D45DE3FD /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27256E913790A1EC111854E3D10E67F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F744B478B19F857AEF95B60810206F0 /* Foundation.framework */; };
+		29F477B426E97AC81C2D867965814EE7 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D07D742FCC4902D6009B33EB60ED35 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0F1DE97C1E345FB7DF35E7E458C8DA /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359909FDB4BD95868C266BC2F39AE93 /* AFNetworkReachabilityManager.m */; };
+		342607275DABA8DA2A32D101196496EB /* paper-onboarding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5679DA6BEE1689C3C60AD217C093E14A /* paper-onboarding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3629CA560FDEB6A16D70ADD580108B76 /* EventSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DE9BF7BA380CEECBA7281FCD9F71D9 /* EventSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36846672BED9A36034625B75612C4F10 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5930FD3FA33B371A7C4BFBAE17E18C /* AFNetworking.framework */; };
+		38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4268E4956434BB3CC1A53FA3DE2E5933 /* UIButton+AFNetworking.m */; };
+		3B970F50B6565183DF0FD689A68C7CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F744B478B19F857AEF95B60810206F0 /* Foundation.framework */; };
+		3BFB2C8191ECC7F1CE6F67FAFB22F794 /* CardSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF268B2BE56EF4958A83B401BECDFDEE /* CardSliderCell.swift */; };
+		3C14F08D54A2BDCEA962BB458FE481C2 /* ParticleNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 071701AA29F4C8E57E1857C92668296F /* ParticleNetwork.m */; };
+		3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DFD9C28BF532E2A9BB376479985A15 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85486D5AF96F28C9CD9F88B9F9169886 /* AFNetworking-dummy.m */; };
+		3FEA79AB938D263EDD0576109321847D /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EBEDC9E2B6E55E22E4451319A51DAA8C /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A4779F7861247D762555F1ABF30A5A70 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA143C48963157EB23453189DB6174 /* AFAutoPurgingImageCache.m */; };
+		4C615F57B763AA6170BBE5251567F140 /* OnboardingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CE4147BB4348B8C54A72C87E48C2C8 /* OnboardingContentView.swift */; };
+		4F17055D20B820F265F0C174C67CA94B /* PageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE792637DC4BD4FD634471F47A4E4F2 /* PageContainer.swift */; };
+		4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D1B8215275D75EEFBCFD08C4E08EF0 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		516464DB7004848131A1A280E725BB30 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1205A7D509AB356567CD4F5D88BA0B64 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5375686013BA9E965568C1891BB83646 /* ParticleCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9BA4119D7213A8D4EA9EA640026A91 /* ParticleCloud.m */; };
+		698DFA2765BCDC8A8FC28BBD30A2FAEA /* EventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EDE672840468FC7F89D0EF8E651C3C /* EventSource.m */; };
+		6A9D7C4F7E6F86F8D8835F17DC5B176A /* ParticleCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A03532EA1537D6342E347C3891526D /* ParticleCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD21CCCB421ADDF23826A2FF8411BBB /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 146D15DDD0BDDC9222F1E2EF49AFB51F /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0111D25DF7FF87B86C89900B0DC8CE9 /* AFURLSessionManager.m */; };
+		77F112403440A7419C4880CABD38A962 /* PageViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476AE40428BFE50F4591C9D2AD44ED4C /* PageViewItem.swift */; };
+		7932EBA8D54C4571E4E3D4B0ACAA71A0 /* CardSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FACC056E1A57D69A61FA6C3528F17D /* CardSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AB25CFEC5D0D2B333DAEA01B53751CD /* ParticleNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = C9058E4F86215299FA40179D9DE3461C /* ParticleNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D669CE134F23BB348238F83F58F94D5 /* PaperOnboardingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A7381F5C6D4DD53820FF6D28924FE /* PaperOnboardingDelegate.swift */; };
+		800CFEFCE558037232F0D4B74482B1CC /* Particle-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7107874352A3B456058A22104D060070 /* Particle-SDK-dummy.m */; };
+		828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F734ADCFCECD05BA709283896A2F1E /* AFURLResponseSerialization.m */; };
+		850C7D03FC3FF12CC0EDEC8AC95B4388 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81784888EF63D794F4CB4F44CB07389A /* RatingView.swift */; };
+		8549CAD92619492F273BABB466AD094A /* ParticlePricingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9A27CB379432871B4DE6B932A2C0C /* ParticlePricingInfo.m */; };
+		85B7D4CC16CA8F57ECD657D8C32CC49C /* ParticleErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9396B51F9D5E3F69570755CE67BE91AF /* ParticleErrorHelper.m */; };
+		8877F6446370CF613DEEDAB4073066E4 /* ParticleEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A50D0C4DFF475FBEF9C70AB993F4FA93 /* ParticleEvent.m */; };
+		8A8C168707A7BCB611487CD7D2F381DD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D36C04D1B03BA644D54C390B45CBE13 /* Extensions.swift */; };
+		8A95FD8BC1F3A1667540F63F499B53C2 /* ParticleSimInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C94E80FE4D4ECE2E954EEAC0B5FB98 /* ParticleSimInfo.m */; };
+		8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B614734B50A8BADED812CAE87D095F31 /* AFHTTPSessionManager.m */; };
+		8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 942E65FDC2004E47CB82AF21916C39EA /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E4E8665231216670E0DD1DE32224812 /* Configuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5777B4C53E308530570AC3E9E34A7673 /* Configuring.swift */; };
+		8F4D6416547E4138AB3F6CFE4C79C22F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F744B478B19F857AEF95B60810206F0 /* Foundation.framework */; };
+		90E11860B6F9BDC73E00A1AF0116A0BA /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EAF24FB1AB8EF897075985C7C934B7 /* ALView+PureLayout.m */; };
+		935BDAE6A54DD9B5204DA93F5B5E377F /* Particle-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F45B200AA9911F94DF0138ACE361699 /* Particle-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C520A81C3F0BCC05441A31D4F3BEBF86 /* WKWebView+AFNetworking.m */; };
+		9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B91909303B6DA3A76E5F4F30F13C0C63 /* AFNetworkActivityIndicatorManager.m */; };
+		9FBF51004CE61AB63E7B80C6D8DA4821 /* ParticleSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D66345DAE80F8F6D3406211DB0D50 /* ParticleSession.m */; };
+		A0D8D3FD0336C1D28B13B3A8750FC96E /* ParticleDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 12625A0D2EB827F1430F9AD17B32EA31 /* ParticleDevice.m */; };
+		A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7C95797F41B4EA655507ADF62EAD06 /* AFSecurityPolicy.m */; };
+		A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B420F4F6B0F3201B92234EE78B2EF6D5 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE028A669BDCC596930B9CD7B34C231D /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C427A0BB984BA01C254BF25E48D8ADBC /* NSArray+PureLayout.m */; };
+		AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 968255C47E1B77B69DA684F3FB2D3C1C /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2CE4FC5C310FC8F7FF6B91362C6D513 /* GestureControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F04A1DB00A8E2BE5CCEACC1F330A1 /* GestureControl.swift */; };
+		B45733DF72B8F6519ED2C771C8E252EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F744B478B19F857AEF95B60810206F0 /* Foundation.framework */; };
+		B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDD21C5531FFF56E4FEEFD1E4361BB0 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B53B09B6F8070E9A9BB6ACDBD1078E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F744B478B19F857AEF95B60810206F0 /* Foundation.framework */; };
+		B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 41204ABE16FE62B0C8CDFC104FE36464 /* AFImageDownloader.m */; };
+		B9F8CAEC645C1F62D5B3E0B6315EC211 /* KeychainHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D26871DBB88E1E5B31C465E724D404 /* KeychainHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E7B5BD7502267EC0FBF1492960F6A /* AFURLRequestSerialization.m */; };
+		BD7986DD072CE7CF380DF04541AF55A1 /* ParticleDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BEC579D95D3144C1E981BB7270D23 /* ParticleDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C083E0C1A52728A974A958C249DFBFCC /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3F89A0DB2C4E58E361137A256BAB09 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0FA9736AAE0DFDFF3768C16C7104282 /* ParticleSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 98C1DC93FC1EAECF4A251A4990AB7336 /* ParticleSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C36E7F30B975912F1628BCD31B13274B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B67C20D5745106083D4DFE0526B082 /* Security.framework */; };
+		C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F3927F3FEDBA798E6C40B41A414D173A /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA711B2A0B1CD99B804DE69299076E4B /* ParticleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1BE432ABEF814F7C40408586DA6DC5 /* ParticleLogger.m */; };
+		CAEF5A694258EA759B5AC90CBEB72CCC /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1C8D9176F79CD4A59BCB13D02431AD /* PureLayout-dummy.m */; };
+		CD6F285642C2D43CCF5A53D4EC0C2BB1 /* CardSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7245FAAB77E98D3AAD52F84DFB956280 /* CardSliderViewController.swift */; };
+		CE4A4613E048E61DCDEB6B4C6AA5487E /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 57003FA8B2D83B83090FD6E2F7CC8C78 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64335AFA176E95D8A1892337EDB9819 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FDFD5F894713804985F1EE4C0F7DAA /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F6A80C0395036445CB594F28522227 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF45D59546F58E4F8118B65DBC9B0F4 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB9C01F45D456063E0B6A4AF8D010A6 /* NSLayoutConstraint+PureLayout.m */; };
+		E142F14C2AF76FE8C2AD47CBEE4D8196 /* ParticlePricingInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 29069C01DA0611EEB2FAEE41078E8A14 /* ParticlePricingInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4B22708D7FF641784BECC922DF99603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F744B478B19F857AEF95B60810206F0 /* Foundation.framework */; };
+		E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 126D9D1A55AC240A8B2EE49E792BE01C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF988F48BAFF8F0D820D8E2B60C5D3D /* ParticleSimInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFB0626F07514B26BCA4A3308649FEC /* ParticleSimInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA796C399BD028C7BDE122FD28B24FE /* ConstraintsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178CBF40E1BBC824966C28651DE244B0 /* ConstraintsHelper.swift */; };
+		EBA8260471614F0532CA8E99E318025C /* ParticleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC10CB090070DF9CEC236DAC528F4B4 /* ParticleLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3903AC92477CAE5D7295E0C04082C0 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEC50AE851B5CEAFBAAD391FC3D37F4 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0E545C0D9DBD91CF779863AEBD8E4A /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3513898978812B5DB65771F46CF7707 /* PaperOnboardingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A7E50EAF5A8CD75467D4ADA64D88A3 /* PaperOnboardingDataSource.swift */; };
+		F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F204B4143975B3C6634CD9AE84E881A /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5029402FFD3B21FBE72A127CA3FF00C /* Pods-SmartGreenhouseSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A3E0C66A5A3A5B17F3C15F018E65C8 /* Pods-SmartGreenhouseSystem-dummy.m */; };
+		F77659E80B9D3506DCEB145D863FAE9F /* ParticleEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = C976E476F8267ADCD2662FE946AB8644 /* ParticleEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7AED51B7F427C0A791D3B7040D53D71 /* Pods-SmartGreenhouseSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BAB141EEA8050C89300DC0349F9660 /* Pods-SmartGreenhouseSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBFF936AC4692F680B0CE4C48E03075E /* KeychainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB50DA8A7AC166C8A3FDF382D41E3FFA /* KeychainHelper.m */; };
+		FC4E933B2E86BF5B9A369CE47A6F285D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5C397B040B4DE069F210F9DC0C0A36 /* Main.storyboard */; };
+		FD7166C1FA01C602CC24027A9ACCD8C2 /* ParticleErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C730906747F72DE62AA0B20CE810DB /* ParticleErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A54A3B6647748F7D20C62343DE46A5A2 /* UIActivityIndicatorView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		412BDEB902EE5611F9BDB0CF2796DF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B483472F6440590861262522FEBEA49F;
+			remoteInfo = "CardSlider-CardSlider";
+		};
+		6E298BC17D054EEB33C6579AAF096B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D11B0D1A6986453F8B1B1BACDA442BBA;
+			remoteInfo = CardSlider;
+		};
+		AFF311D69A47F25CDE94ABFC6129E0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
+			remoteInfo = PureLayout;
+		};
+		C078E1A2D692E8B807FFF6B05BD5019D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		E78C73756751D3ECA63CA7364066F0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68AB791372E806C05E7AAFFFF40D6B7F;
+			remoteInfo = "Particle-SDK";
+		};
+		F945CF41DEE4D0D49AC99D278C69C5F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092BBAE106FF2FFA56F415EFB1EDBC41;
+			remoteInfo = "paper-onboarding";
+		};
+		FA5CB79719B0EF27D0B1785DEB3C2AB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035D244A934054E67BB16F8CB2EBA5CC /* Pods-SmartGreenhouseSystem-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartGreenhouseSystem-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04B9A27CB379432871B4DE6B932A2C0C /* ParticlePricingInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticlePricingInfo.m; path = ParticleSDK/SDK/ParticlePricingInfo.m; sourceTree = "<group>"; };
+		05A03532EA1537D6342E347C3891526D /* ParticleCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleCloud.h; path = ParticleSDK/SDK/ParticleCloud.h; sourceTree = "<group>"; };
+		071701AA29F4C8E57E1857C92668296F /* ParticleNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleNetwork.m; path = ParticleSDK/SDK/ParticleNetwork.m; sourceTree = "<group>"; };
+		08B3D80A5C77BE4E8E8ED9C8543AAB21 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		096A410F09B74DC613B514ABE4EB076C /* CardSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CardSlider.modulemap; sourceTree = "<group>"; };
+		0B329C0E58AD4F89A5FC40AF8EC5DDAE /* PaperOnboarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboarding.swift; path = Source/PaperOnboarding.swift; sourceTree = "<group>"; };
+		0D02F3F061394A3718539F4E78BB0A81 /* Particle-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Particle-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		0DE1842E5C7D6ED92BA89908A944D0DF /* CardTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTitleView.swift; path = CardSlider/CardSlider/Public/CardTitleView.swift; sourceTree = "<group>"; };
+		109065C19EB64FD9329BF06306F9A1CA /* CardSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CardSlider.release.xcconfig; sourceTree = "<group>"; };
+		1205A7D509AB356567CD4F5D88BA0B64 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		12625A0D2EB827F1430F9AD17B32EA31 /* ParticleDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleDevice.m; path = ParticleSDK/SDK/ParticleDevice.m; sourceTree = "<group>"; };
+		126D9D1A55AC240A8B2EE49E792BE01C /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		133D5D967D015C0257CEC2A480B56EDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		146D15DDD0BDDC9222F1E2EF49AFB51F /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		178CBF40E1BBC824966C28651DE244B0 /* ConstraintsHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintsHelper.swift; path = Source/Helpers/ConstraintsHelper.swift; sourceTree = "<group>"; };
+		17C730906747F72DE62AA0B20CE810DB /* ParticleErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleErrorHelper.h; path = ParticleSDK/Helpers/ParticleErrorHelper.h; sourceTree = "<group>"; };
+		18F734ADCFCECD05BA709283896A2F1E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		1CEC50AE851B5CEAFBAAD391FC3D37F4 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		1D1BE432ABEF814F7C40408586DA6DC5 /* ParticleLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleLogger.m; path = ParticleSDK/Helpers/ParticleLogger.m; sourceTree = "<group>"; };
+		1FE792637DC4BD4FD634471F47A4E4F2 /* PageContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageContainer.swift; path = Source/PageView/PageContainerView/PageContainer.swift; sourceTree = "<group>"; };
+		24C94E80FE4D4ECE2E954EEAC0B5FB98 /* ParticleSimInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSimInfo.m; path = ParticleSDK/SDK/ParticleSimInfo.m; sourceTree = "<group>"; };
+		24D26871DBB88E1E5B31C465E724D404 /* KeychainHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeychainHelper.h; path = ParticleSDK/Helpers/KeychainHelper.h; sourceTree = "<group>"; };
+		26F49DD70468B0C9EFF4FE9F8896C2D4 /* Pods-SmartGreenhouseSystem-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartGreenhouseSystem-frameworks.sh"; sourceTree = "<group>"; };
+		279937B36EE4AFFE8F78A739F06510BD /* PureLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.debug.xcconfig; sourceTree = "<group>"; };
+		29069C01DA0611EEB2FAEE41078E8A14 /* ParticlePricingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticlePricingInfo.h; path = ParticleSDK/SDK/ParticlePricingInfo.h; sourceTree = "<group>"; };
+		2A3B195DC95D593F243C49A4D45DE3FD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		2D36C04D1B03BA644D54C390B45CBE13 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CardSlider/CardSlider/Private/Extensions.swift; sourceTree = "<group>"; };
+		2F0E7B5BD7502267EC0FBF1492960F6A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		30E583856CBB0857C0EA80A4208FAF1E /* Pods-SmartGreenhouseSystem-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartGreenhouseSystem-acknowledgements.plist"; sourceTree = "<group>"; };
+		3200402D425EA367F3F59DE8DD2C9437 /* FillAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillAnimationView.swift; path = Source/FillAnimationView/FillAnimationView.swift; sourceTree = "<group>"; };
+		32A1342C26A419F04684A49C137A3615 /* CardsLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardsLayout.swift; path = CardSlider/CardSlider/Private/CardsLayout.swift; sourceTree = "<group>"; };
+		355E8F401ED214F414A3C2DFBE234D82 /* OnboardingContantViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContantViewItem.swift; path = Source/OnboardingContentView/Item/OnboardingContantViewItem.swift; sourceTree = "<group>"; };
+		35A99AAA631E2DDD2BFFED7D93A2169C /* Particle-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Particle-SDK-prefix.pch"; sourceTree = "<group>"; };
+		36C33B146C6A00CC5918DC9700A62F12 /* Pods-SmartGreenhouseSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartGreenhouseSystem-Info.plist"; sourceTree = "<group>"; };
+		3BA7B8A850339346E7DC64BDD3F52F88 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = Source/PageView/PageView.swift; sourceTree = "<group>"; };
+		3E806A8DA4A02753F69985AAF6277D4F /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		3F45B200AA9911F94DF0138ACE361699 /* Particle-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Particle-SDK-umbrella.h"; sourceTree = "<group>"; };
+		41204ABE16FE62B0C8CDFC104FE36464 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		41A7E50EAF5A8CD75467D4ADA64D88A3 /* PaperOnboardingDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboardingDataSource.swift; path = Source/PaperOnboardingDataSource.swift; sourceTree = "<group>"; };
+		4268E4956434BB3CC1A53FA3DE2E5933 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		476AE40428BFE50F4591C9D2AD44ED4C /* PageViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewItem.swift; path = Source/PageView/Item/PageViewItem.swift; sourceTree = "<group>"; };
+		4975D558DCF97CF1A9BA8935D74BC365 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		4A3F89A0DB2C4E58E361137A256BAB09 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		4B7D66345DAE80F8F6D3406211DB0D50 /* ParticleSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSession.m; path = ParticleSDK/SDK/ParticleSession.m; sourceTree = "<group>"; };
+		4C0E545C0D9DBD91CF779863AEBD8E4A /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		4E9614650D84149CC28DBCFBED644F81 /* PureLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.release.xcconfig; sourceTree = "<group>"; };
+		511165B9F8580B927765348A660EA6C9 /* paper-onboarding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "paper-onboarding-dummy.m"; sourceTree = "<group>"; };
+		537FCF32D6E5F7461FEF5787028B14F6 /* Particle_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Particle_SDK.framework; path = "Particle-SDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DFD9C28BF532E2A9BB376479985A15 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		5679DA6BEE1689C3C60AD217C093E14A /* paper-onboarding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-umbrella.h"; sourceTree = "<group>"; };
+		57003FA8B2D83B83090FD6E2F7CC8C78 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		5777B4C53E308530570AC3E9E34A7673 /* Configuring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuring.swift; path = Source/Helpers/Configuring.swift; sourceTree = "<group>"; };
+		59D07D742FCC4902D6009B33EB60ED35 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		59FACC056E1A57D69A61FA6C3528F17D /* CardSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CardSlider-umbrella.h"; sourceTree = "<group>"; };
+		5ADAB2DFE5A211AA5D26167C41422AB6 /* Particle-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Particle-SDK-Info.plist"; sourceTree = "<group>"; };
+		5B5B522D84F1F33C10371A23C5EA4CE2 /* ResourceBundle-CardSlider-CardSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CardSlider-CardSlider-Info.plist"; sourceTree = "<group>"; };
+		5BDD21C5531FFF56E4FEEFD1E4361BB0 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		5D1C8D9176F79CD4A59BCB13D02431AD /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		631C413113888D8B9E0C9C7C40AFA293 /* Particle-SDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Particle-SDK.h"; path = "ParticleSDK/Particle-SDK.h"; sourceTree = "<group>"; };
+		63EF0170DD0B281511A019CD822DBEBF /* CardSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CardSlider-Info.plist"; sourceTree = "<group>"; };
+		69F6A80C0395036445CB594F28522227 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		6CC10CB090070DF9CEC236DAC528F4B4 /* ParticleLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleLogger.h; path = ParticleSDK/Helpers/ParticleLogger.h; sourceTree = "<group>"; };
+		6F0F1DE97C1E345FB7DF35E7E458C8DA /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		7107874352A3B456058A22104D060070 /* Particle-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Particle-SDK-dummy.m"; sourceTree = "<group>"; };
+		723F04A1DB00A8E2BE5CCEACC1F330A1 /* GestureControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureControl.swift; path = Source/GestureControl/GestureControl.swift; sourceTree = "<group>"; };
+		7245FAAB77E98D3AAD52F84DFB956280 /* CardSliderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardSliderViewController.swift; path = CardSlider/CardSlider/Public/CardSliderViewController.swift; sourceTree = "<group>"; };
+		7359909FDB4BD95868C266BC2F39AE93 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		73851CDC5F7E6DB56DE3AAB8639C3D90 /* CardSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CardSlider-dummy.m"; sourceTree = "<group>"; };
+		7A89EFBF0BE34F4B35A5CF8AA45C1678 /* CardSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CardSlider-prefix.pch"; sourceTree = "<group>"; };
+		7C83CB4F26F31EB87C11CA0FA5DDA002 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		81784888EF63D794F4CB4F44CB07389A /* RatingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatingView.swift; path = CardSlider/CardSlider/Private/RatingView.swift; sourceTree = "<group>"; };
+		819E393A0DBB46D22A1C377C3D69D3FF /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		82A0BE516F40E63F2FDE6A61F0940F4C /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		84D1B8215275D75EEFBCFD08C4E08EF0 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		84FDFD5F894713804985F1EE4C0F7DAA /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		85486D5AF96F28C9CD9F88B9F9169886 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		88A3E0C66A5A3A5B17F3C15F018E65C8 /* Pods-SmartGreenhouseSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartGreenhouseSystem-dummy.m"; sourceTree = "<group>"; };
+		8A3998531F88FAEB0F0AF6D4692814D2 /* paper-onboarding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "paper-onboarding-Info.plist"; sourceTree = "<group>"; };
+		8B9BA4119D7213A8D4EA9EA640026A91 /* ParticleCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleCloud.m; path = ParticleSDK/SDK/ParticleCloud.m; sourceTree = "<group>"; };
+		8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CardSlider.bundle; path = "CardSlider-CardSlider.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFB0626F07514B26BCA4A3308649FEC /* ParticleSimInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSimInfo.h; path = ParticleSDK/SDK/ParticleSimInfo.h; sourceTree = "<group>"; };
+		8EFC27CA45BB2AC1880C7819CDBA5FC1 /* Pods-SmartGreenhouseSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartGreenhouseSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		8F204B4143975B3C6634CD9AE84E881A /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		8F744B478B19F857AEF95B60810206F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		90DE9BF7BA380CEECBA7281FCD9F71D9 /* EventSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EventSource.h; path = ParticleSDK/Helpers/EventSource.h; sourceTree = "<group>"; };
+		9396B51F9D5E3F69570755CE67BE91AF /* ParticleErrorHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleErrorHelper.m; path = ParticleSDK/Helpers/ParticleErrorHelper.m; sourceTree = "<group>"; };
+		93BAB141EEA8050C89300DC0349F9660 /* Pods-SmartGreenhouseSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartGreenhouseSystem-umbrella.h"; sourceTree = "<group>"; };
+		942E65FDC2004E47CB82AF21916C39EA /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		94CE4147BB4348B8C54A72C87E48C2C8 /* OnboardingContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContentView.swift; path = Source/OnboardingContentView/OnboardingContentView.swift; sourceTree = "<group>"; };
+		968255C47E1B77B69DA684F3FB2D3C1C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		98C1DC93FC1EAECF4A251A4990AB7336 /* ParticleSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSession.h; path = ParticleSDK/SDK/ParticleSession.h; sourceTree = "<group>"; };
+		997403AB85EFB5E6B3E5F7013D450521 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED9B59B86CFE33C625373A4D0ECE259 /* Pods-SmartGreenhouseSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartGreenhouseSystem.release.xcconfig"; sourceTree = "<group>"; };
+		A3B67C20D5745106083D4DFE0526B082 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		A4779F7861247D762555F1ABF30A5A70 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50D0C4DFF475FBEF9C70AB993F4FA93 /* ParticleEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleEvent.m; path = ParticleSDK/SDK/ParticleEvent.m; sourceTree = "<group>"; };
+		A54A3B6647748F7D20C62343DE46A5A2 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		A71246EE09C6A246F610EFB63C8F6DBB /* PureLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureLayout-Info.plist"; sourceTree = "<group>"; };
+		AB5C397B040B4DE069F210F9DC0C0A36 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = CardSlider/CardSlider/Private/Main.storyboard; sourceTree = "<group>"; };
+		ABF10770C92FC7AD3B60139B9086D802 /* Particle-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Particle-SDK.modulemap"; sourceTree = "<group>"; };
+		B202EE17B0EE8D1664C6FB91206BA5A4 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		B372590A687EC794CD6E915C23F309AE /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		B420F4F6B0F3201B92234EE78B2EF6D5 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		B52A7381F5C6D4DD53820FF6D28924FE /* PaperOnboardingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboardingDelegate.swift; path = Source/PaperOnboardingDelegate.swift; sourceTree = "<group>"; };
+		B614734B50A8BADED812CAE87D095F31 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B7EAF24FB1AB8EF897075985C7C934B7 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		B91909303B6DA3A76E5F4F30F13C0C63 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		BCDB466C8B1AD1C69B1A05B8F2F48E66 /* paper-onboarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "paper-onboarding.debug.xcconfig"; sourceTree = "<group>"; };
+		BD5930FD3FA33B371A7C4BFBAE17E18C /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD21CCCB421ADDF23826A2FF8411BBB /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = paper_onboarding.framework; path = "paper-onboarding.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BB34C69CFEA61AE5928B44AB31710D /* CardSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CardSlider.debug.xcconfig; sourceTree = "<group>"; };
+		C3EDE672840468FC7F89D0EF8E651C3C /* EventSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EventSource.m; path = ParticleSDK/Helpers/EventSource.m; sourceTree = "<group>"; };
+		C427A0BB984BA01C254BF25E48D8ADBC /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		C520A81C3F0BCC05441A31D4F3BEBF86 /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		C9058E4F86215299FA40179D9DE3461C /* ParticleNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleNetwork.h; path = ParticleSDK/SDK/ParticleNetwork.h; sourceTree = "<group>"; };
+		C976E476F8267ADCD2662FE946AB8644 /* ParticleEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleEvent.h; path = ParticleSDK/SDK/ParticleEvent.h; sourceTree = "<group>"; };
+		C9938033ABCD954DA6F4FA268DE5956C /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		CA008B2BCE0099C10C94E16540290123 /* paper-onboarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "paper-onboarding.release.xcconfig"; sourceTree = "<group>"; };
+		D3CB55438E6EA99EBC24FB3E2077CAB2 /* Pods-SmartGreenhouseSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartGreenhouseSystem.modulemap"; sourceTree = "<group>"; };
+		DB88C983CDFF94B64374273EB5D3D87D /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		DE0002AD179BAC559F71B2D0E07A0177 /* paper-onboarding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "paper-onboarding.modulemap"; sourceTree = "<group>"; };
+		DF268B2BE56EF4958A83B401BECDFDEE /* CardSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardSliderCell.swift; path = CardSlider/CardSlider/Public/CardSliderCell.swift; sourceTree = "<group>"; };
+		E0111D25DF7FF87B86C89900B0DC8CE9 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		E30668061E51F52F48AB46EAAE96CC50 /* paper-onboarding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-prefix.pch"; sourceTree = "<group>"; };
+		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73B055626208855D7C51B17F5218DB7 /* Pods_SmartGreenhouseSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartGreenhouseSystem.framework; path = "Pods-SmartGreenhouseSystem.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7BEC579D95D3144C1E981BB7270D23 /* ParticleDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleDevice.h; path = ParticleSDK/SDK/ParticleDevice.h; sourceTree = "<group>"; };
+		EAC256305050F26291FBE55997F488DD /* Particle-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Particle-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		EB50DA8A7AC166C8A3FDF382D41E3FFA /* KeychainHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeychainHelper.m; path = ParticleSDK/Helpers/KeychainHelper.m; sourceTree = "<group>"; };
+		EBEDC9E2B6E55E22E4451319A51DAA8C /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		ED7C95797F41B4EA655507ADF62EAD06 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EF81FE7FCA7DDB5CBE9366C6E2178F7E /* CardSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CardSlider.framework; path = CardSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DA143C48963157EB23453189DB6174 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		F3927F3FEDBA798E6C40B41A414D173A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F66C6C4D32C8D01F17DC73FC60E73422 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		FA573944E5062DC3B4D78A54779DC4B8 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		FCB9C01F45D456063E0B6A4AF8D010A6 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0995386CC00378FB8BC461EAAD6AC26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B970F50B6565183DF0FD689A68C7CF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D428E24A60F2BB44F1E7F156C585784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45733DF72B8F6519ED2C771C8E252EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B41C0691FC4D926F7F12289EC31B2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4D6416547E4138AB3F6CFE4C79C22F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5E38EC1399AD620B94DB1C92C79F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9BCCCF510F65077210B8D9944565EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27256E913790A1EC111854E3D10E67F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7976B6B8534C907A3DBA4EEF2012815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53B09B6F8070E9A9BB6ACDBD1078E84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E054AF2278C1FF3E587265CD94626B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36846672BED9A36034625B75612C4F10 /* AFNetworking.framework in Frameworks */,
+				E4B22708D7FF641784BECC922DF99603 /* Foundation.framework in Frameworks */,
+				C36E7F30B975912F1628BCD31B13274B /* Security.framework in Frameworks */,
+				1810B3BA4FC57EF05DD64A6E99FD1FAB /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0946B68702CB2DD3FF0A54266974C549 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE0002AD179BAC559F71B2D0E07A0177 /* paper-onboarding.modulemap */,
+				511165B9F8580B927765348A660EA6C9 /* paper-onboarding-dummy.m */,
+				8A3998531F88FAEB0F0AF6D4692814D2 /* paper-onboarding-Info.plist */,
+				E30668061E51F52F48AB46EAAE96CC50 /* paper-onboarding-prefix.pch */,
+				5679DA6BEE1689C3C60AD217C093E14A /* paper-onboarding-umbrella.h */,
+				BCDB466C8B1AD1C69B1A05B8F2F48E66 /* paper-onboarding.debug.xcconfig */,
+				CA008B2BCE0099C10C94E16540290123 /* paper-onboarding.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/paper-onboarding";
+			sourceTree = "<group>";
+		};
+		16E1E36A1F6C433BB11A901CE32BA6C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF10770C92FC7AD3B60139B9086D802 /* Particle-SDK.modulemap */,
+				7107874352A3B456058A22104D060070 /* Particle-SDK-dummy.m */,
+				5ADAB2DFE5A211AA5D26167C41422AB6 /* Particle-SDK-Info.plist */,
+				35A99AAA631E2DDD2BFFED7D93A2169C /* Particle-SDK-prefix.pch */,
+				3F45B200AA9911F94DF0138ACE361699 /* Particle-SDK-umbrella.h */,
+				0D02F3F061394A3718539F4E78BB0A81 /* Particle-SDK.debug.xcconfig */,
+				EAC256305050F26291FBE55997F488DD /* Particle-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Particle-SDK";
+			sourceTree = "<group>";
+		};
+		1F1E5B3157527D3622661FCD4B38EEF5 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				05A03532EA1537D6342E347C3891526D /* ParticleCloud.h */,
+				8B9BA4119D7213A8D4EA9EA640026A91 /* ParticleCloud.m */,
+				EA7BEC579D95D3144C1E981BB7270D23 /* ParticleDevice.h */,
+				12625A0D2EB827F1430F9AD17B32EA31 /* ParticleDevice.m */,
+				C976E476F8267ADCD2662FE946AB8644 /* ParticleEvent.h */,
+				A50D0C4DFF475FBEF9C70AB993F4FA93 /* ParticleEvent.m */,
+				C9058E4F86215299FA40179D9DE3461C /* ParticleNetwork.h */,
+				071701AA29F4C8E57E1857C92668296F /* ParticleNetwork.m */,
+				29069C01DA0611EEB2FAEE41078E8A14 /* ParticlePricingInfo.h */,
+				04B9A27CB379432871B4DE6B932A2C0C /* ParticlePricingInfo.m */,
+				98C1DC93FC1EAECF4A251A4990AB7336 /* ParticleSession.h */,
+				4B7D66345DAE80F8F6D3406211DB0D50 /* ParticleSession.m */,
+				8DFB0626F07514B26BCA4A3308649FEC /* ParticleSimInfo.h */,
+				24C94E80FE4D4ECE2E954EEAC0B5FB98 /* ParticleSimInfo.m */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		307B5D4AB9021CA97ADEB08F59135F3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6533437DF3506D2F8DBDBD609F14B594 /* AFNetworking */,
+				8AC423FE18DE02805CC4445AAEC8BC57 /* CardSlider */,
+				E3FDAAF263B6D7ED6D4B50019F63F69F /* paper-onboarding */,
+				8383E2B552A268530EC8F7D389F637DB /* Particle-SDK */,
+				4DF845B70A2BF9AFFA3FCDCDC76564E5 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C23F9969A2D50801936AEBE969256F4 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				968255C47E1B77B69DA684F3FB2D3C1C /* AFSecurityPolicy.h */,
+				ED7C95797F41B4EA655507ADF62EAD06 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		3E69F42D2C33402AC7F34C96E3979D78 /* Pods-SmartGreenhouseSystem */ = {
+			isa = PBXGroup;
+			children = (
+				D3CB55438E6EA99EBC24FB3E2077CAB2 /* Pods-SmartGreenhouseSystem.modulemap */,
+				035D244A934054E67BB16F8CB2EBA5CC /* Pods-SmartGreenhouseSystem-acknowledgements.markdown */,
+				30E583856CBB0857C0EA80A4208FAF1E /* Pods-SmartGreenhouseSystem-acknowledgements.plist */,
+				88A3E0C66A5A3A5B17F3C15F018E65C8 /* Pods-SmartGreenhouseSystem-dummy.m */,
+				26F49DD70468B0C9EFF4FE9F8896C2D4 /* Pods-SmartGreenhouseSystem-frameworks.sh */,
+				36C33B146C6A00CC5918DC9700A62F12 /* Pods-SmartGreenhouseSystem-Info.plist */,
+				93BAB141EEA8050C89300DC0349F9660 /* Pods-SmartGreenhouseSystem-umbrella.h */,
+				8EFC27CA45BB2AC1880C7819CDBA5FC1 /* Pods-SmartGreenhouseSystem.debug.xcconfig */,
+				9ED9B59B86CFE33C625373A4D0ECE259 /* Pods-SmartGreenhouseSystem.release.xcconfig */,
+			);
+			name = "Pods-SmartGreenhouseSystem";
+			path = "Target Support Files/Pods-SmartGreenhouseSystem";
+			sourceTree = "<group>";
+		};
+		4DF845B70A2BF9AFFA3FCDCDC76564E5 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1CEC50AE851B5CEAFBAAD391FC3D37F4 /* ALView+PureLayout.h */,
+				B7EAF24FB1AB8EF897075985C7C934B7 /* ALView+PureLayout.m */,
+				EBEDC9E2B6E55E22E4451319A51DAA8C /* NSArray+PureLayout.h */,
+				C427A0BB984BA01C254BF25E48D8ADBC /* NSArray+PureLayout.m */,
+				1205A7D509AB356567CD4F5D88BA0B64 /* NSLayoutConstraint+PureLayout.h */,
+				FCB9C01F45D456063E0B6A4AF8D010A6 /* NSLayoutConstraint+PureLayout.m */,
+				59D07D742FCC4902D6009B33EB60ED35 /* PureLayout.h */,
+				4A3F89A0DB2C4E58E361137A256BAB09 /* PureLayout+Internal.h */,
+				57003FA8B2D83B83090FD6E2F7CC8C78 /* PureLayoutDefines.h */,
+				7EF01F4417D98FC5682BBCEE552CBB5A /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		5B980E012BB308E9D86C20A0EE6DD4B3 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				8F204B4143975B3C6634CD9AE84E881A /* AFCompatibilityMacros.h */,
+				F3927F3FEDBA798E6C40B41A414D173A /* AFHTTPSessionManager.h */,
+				B614734B50A8BADED812CAE87D095F31 /* AFHTTPSessionManager.m */,
+				B420F4F6B0F3201B92234EE78B2EF6D5 /* AFURLSessionManager.h */,
+				E0111D25DF7FF87B86C89900B0DC8CE9 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		6533437DF3506D2F8DBDBD609F14B594 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				69F6A80C0395036445CB594F28522227 /* AFNetworking.h */,
+				5B980E012BB308E9D86C20A0EE6DD4B3 /* NSURLSession */,
+				6AC89ABD65E6B63A6646087353069670 /* Reachability */,
+				3C23F9969A2D50801936AEBE969256F4 /* Security */,
+				A6B77A39DF8E6895CDCE4AEE3EEB68B3 /* Serialization */,
+				C529B96B88880B33B13016509F2CEC65 /* Support Files */,
+				C431CA2437A5AAC9D338F66F2DD23195 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		680F65ACA5C223DD7F6B6260A51619C0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8F744B478B19F857AEF95B60810206F0 /* Foundation.framework */,
+				A3B67C20D5745106083D4DFE0526B082 /* Security.framework */,
+				133D5D967D015C0257CEC2A480B56EDB /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6AC89ABD65E6B63A6646087353069670 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				08B3D80A5C77BE4E8E8ED9C8543AAB21 /* AFNetworkReachabilityManager.h */,
+				7359909FDB4BD95868C266BC2F39AE93 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		7EF01F4417D98FC5682BBCEE552CBB5A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E806A8DA4A02753F69985AAF6277D4F /* PureLayout.modulemap */,
+				5D1C8D9176F79CD4A59BCB13D02431AD /* PureLayout-dummy.m */,
+				A71246EE09C6A246F610EFB63C8F6DBB /* PureLayout-Info.plist */,
+				FA573944E5062DC3B4D78A54779DC4B8 /* PureLayout-prefix.pch */,
+				84FDFD5F894713804985F1EE4C0F7DAA /* PureLayout-umbrella.h */,
+				279937B36EE4AFFE8F78A739F06510BD /* PureLayout.debug.xcconfig */,
+				4E9614650D84149CC28DBCFBED644F81 /* PureLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		8383E2B552A268530EC8F7D389F637DB /* Particle-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				631C413113888D8B9E0C9C7C40AFA293 /* Particle-SDK.h */,
+				FDC91A28597074ED23378E4EF976F49C /* Helpers */,
+				1F1E5B3157527D3622661FCD4B38EEF5 /* SDK */,
+				16E1E36A1F6C433BB11A901CE32BA6C9 /* Support Files */,
+			);
+			name = "Particle-SDK";
+			path = "Particle-SDK";
+			sourceTree = "<group>";
+		};
+		8AC423FE18DE02805CC4445AAEC8BC57 /* CardSlider */ = {
+			isa = PBXGroup;
+			children = (
+				32A1342C26A419F04684A49C137A3615 /* CardsLayout.swift */,
+				DF268B2BE56EF4958A83B401BECDFDEE /* CardSliderCell.swift */,
+				7245FAAB77E98D3AAD52F84DFB956280 /* CardSliderViewController.swift */,
+				0DE1842E5C7D6ED92BA89908A944D0DF /* CardTitleView.swift */,
+				2D36C04D1B03BA644D54C390B45CBE13 /* Extensions.swift */,
+				81784888EF63D794F4CB4F44CB07389A /* RatingView.swift */,
+				AEC286CE1EA802DC4AB12F5C58F4D5FE /* Resources */,
+				B2B883913AACE51226365B5E7DCFCBB3 /* Support Files */,
+			);
+			name = CardSlider;
+			path = CardSlider;
+			sourceTree = "<group>";
+		};
+		9C921A3DD960B184D2AE95B9416931EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD5930FD3FA33B371A7C4BFBAE17E18C /* AFNetworking.framework */,
+				680F65ACA5C223DD7F6B6260A51619C0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B77A39DF8E6895CDCE4AEE3EEB68B3 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				2A3B195DC95D593F243C49A4D45DE3FD /* AFURLRequestSerialization.h */,
+				2F0E7B5BD7502267EC0FBF1492960F6A /* AFURLRequestSerialization.m */,
+				942E65FDC2004E47CB82AF21916C39EA /* AFURLResponseSerialization.h */,
+				18F734ADCFCECD05BA709283896A2F1E /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		AEC286CE1EA802DC4AB12F5C58F4D5FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C397B040B4DE069F210F9DC0C0A36 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B2B883913AACE51226365B5E7DCFCBB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				096A410F09B74DC613B514ABE4EB076C /* CardSlider.modulemap */,
+				73851CDC5F7E6DB56DE3AAB8639C3D90 /* CardSlider-dummy.m */,
+				63EF0170DD0B281511A019CD822DBEBF /* CardSlider-Info.plist */,
+				7A89EFBF0BE34F4B35A5CF8AA45C1678 /* CardSlider-prefix.pch */,
+				59FACC056E1A57D69A61FA6C3528F17D /* CardSlider-umbrella.h */,
+				C0BB34C69CFEA61AE5928B44AB31710D /* CardSlider.debug.xcconfig */,
+				109065C19EB64FD9329BF06306F9A1CA /* CardSlider.release.xcconfig */,
+				5B5B522D84F1F33C10371A23C5EA4CE2 /* ResourceBundle-CardSlider-CardSlider-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CardSlider";
+			sourceTree = "<group>";
+		};
+		BC772C22870161A7705818DE5BF6077D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E69F42D2C33402AC7F34C96E3979D78 /* Pods-SmartGreenhouseSystem */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C431CA2437A5AAC9D338F66F2DD23195 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BDD21CCCB421ADDF23826A2FF8411BBB /* AFAutoPurgingImageCache.h */,
+				F2DA143C48963157EB23453189DB6174 /* AFAutoPurgingImageCache.m */,
+				5BDD21C5531FFF56E4FEEFD1E4361BB0 /* AFImageDownloader.h */,
+				41204ABE16FE62B0C8CDFC104FE36464 /* AFImageDownloader.m */,
+				146D15DDD0BDDC9222F1E2EF49AFB51F /* AFNetworkActivityIndicatorManager.h */,
+				B91909303B6DA3A76E5F4F30F13C0C63 /* AFNetworkActivityIndicatorManager.m */,
+				126D9D1A55AC240A8B2EE49E792BE01C /* UIActivityIndicatorView+AFNetworking.h */,
+				A54A3B6647748F7D20C62343DE46A5A2 /* UIActivityIndicatorView+AFNetworking.m */,
+				A4779F7861247D762555F1ABF30A5A70 /* UIButton+AFNetworking.h */,
+				4268E4956434BB3CC1A53FA3DE2E5933 /* UIButton+AFNetworking.m */,
+				4C0E545C0D9DBD91CF779863AEBD8E4A /* UIImageView+AFNetworking.h */,
+				B372590A687EC794CD6E915C23F309AE /* UIImageView+AFNetworking.m */,
+				84D1B8215275D75EEFBCFD08C4E08EF0 /* UIKit+AFNetworking.h */,
+				54DFD9C28BF532E2A9BB376479985A15 /* UIProgressView+AFNetworking.h */,
+				997403AB85EFB5E6B3E5F7013D450521 /* UIProgressView+AFNetworking.m */,
+				6F0F1DE97C1E345FB7DF35E7E458C8DA /* UIRefreshControl+AFNetworking.h */,
+				DB88C983CDFF94B64374273EB5D3D87D /* UIRefreshControl+AFNetworking.m */,
+				B202EE17B0EE8D1664C6FB91206BA5A4 /* WKWebView+AFNetworking.h */,
+				C520A81C3F0BCC05441A31D4F3BEBF86 /* WKWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		C529B96B88880B33B13016509F2CEC65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66C6C4D32C8D01F17DC73FC60E73422 /* AFNetworking.modulemap */,
+				85486D5AF96F28C9CD9F88B9F9169886 /* AFNetworking-dummy.m */,
+				4975D558DCF97CF1A9BA8935D74BC365 /* AFNetworking-Info.plist */,
+				82A0BE516F40E63F2FDE6A61F0940F4C /* AFNetworking-prefix.pch */,
+				7C83CB4F26F31EB87C11CA0FA5DDA002 /* AFNetworking-umbrella.h */,
+				C9938033ABCD954DA6F4FA268DE5956C /* AFNetworking.debug.xcconfig */,
+				819E393A0DBB46D22A1C377C3D69D3FF /* AFNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9C921A3DD960B184D2AE95B9416931EE /* Frameworks */,
+				307B5D4AB9021CA97ADEB08F59135F3F /* Pods */,
+				D0842B06AB33A2827F7C23ACB132E208 /* Products */,
+				BC772C22870161A7705818DE5BF6077D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0842B06AB33A2827F7C23ACB132E208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
+				8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */,
+				EF81FE7FCA7DDB5CBE9366C6E2178F7E /* CardSlider.framework */,
+				BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */,
+				537FCF32D6E5F7461FEF5787028B14F6 /* Particle_SDK.framework */,
+				E73B055626208855D7C51B17F5218DB7 /* Pods_SmartGreenhouseSystem.framework */,
+				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3FDAAF263B6D7ED6D4B50019F63F69F /* paper-onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				5777B4C53E308530570AC3E9E34A7673 /* Configuring.swift */,
+				178CBF40E1BBC824966C28651DE244B0 /* ConstraintsHelper.swift */,
+				3200402D425EA367F3F59DE8DD2C9437 /* FillAnimationView.swift */,
+				723F04A1DB00A8E2BE5CCEACC1F330A1 /* GestureControl.swift */,
+				355E8F401ED214F414A3C2DFBE234D82 /* OnboardingContantViewItem.swift */,
+				94CE4147BB4348B8C54A72C87E48C2C8 /* OnboardingContentView.swift */,
+				1FE792637DC4BD4FD634471F47A4E4F2 /* PageContainer.swift */,
+				3BA7B8A850339346E7DC64BDD3F52F88 /* PageView.swift */,
+				476AE40428BFE50F4591C9D2AD44ED4C /* PageViewItem.swift */,
+				0B329C0E58AD4F89A5FC40AF8EC5DDAE /* PaperOnboarding.swift */,
+				41A7E50EAF5A8CD75467D4ADA64D88A3 /* PaperOnboardingDataSource.swift */,
+				B52A7381F5C6D4DD53820FF6D28924FE /* PaperOnboardingDelegate.swift */,
+				0946B68702CB2DD3FF0A54266974C549 /* Support Files */,
+			);
+			name = "paper-onboarding";
+			path = "paper-onboarding";
+			sourceTree = "<group>";
+		};
+		FDC91A28597074ED23378E4EF976F49C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				90DE9BF7BA380CEECBA7281FCD9F71D9 /* EventSource.h */,
+				C3EDE672840468FC7F89D0EF8E651C3C /* EventSource.m */,
+				24D26871DBB88E1E5B31C465E724D404 /* KeychainHelper.h */,
+				EB50DA8A7AC166C8A3FDF382D41E3FFA /* KeychainHelper.m */,
+				17C730906747F72DE62AA0B20CE810DB /* ParticleErrorHelper.h */,
+				9396B51F9D5E3F69570755CE67BE91AF /* ParticleErrorHelper.m */,
+				6CC10CB090070DF9CEC236DAC528F4B4 /* ParticleLogger.h */,
+				1D1BE432ABEF814F7C40408586DA6DC5 /* ParticleLogger.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		544CC0B67376CD04A76B55FA8974F38B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3903AC92477CAE5D7295E0C04082C0 /* ALView+PureLayout.h in Headers */,
+				3FEA79AB938D263EDD0576109321847D /* NSArray+PureLayout.h in Headers */,
+				516464DB7004848131A1A280E725BB30 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				C083E0C1A52728A974A958C249DFBFCC /* PureLayout+Internal.h in Headers */,
+				D64335AFA176E95D8A1892337EDB9819 /* PureLayout-umbrella.h in Headers */,
+				29F477B426E97AC81C2D867965814EE7 /* PureLayout.h in Headers */,
+				CE4A4613E048E61DCDEB6B4C6AA5487E /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D37B5C2555F4F5ACBD41A881AF50797 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342607275DABA8DA2A32D101196496EB /* paper-onboarding-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A247CFE2245E2C3857CC26A8F46B168C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7932EBA8D54C4571E4E3D4B0ACAA71A0 /* CardSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE81AFC607D3C5CA6482929801F5076 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AED51B7F427C0A791D3B7040D53D71 /* Pods-SmartGreenhouseSystem-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9ECBAE3144164158FDC62D90C3CEFDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */,
+				F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */,
+				C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */,
+				B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */,
+				722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */,
+				D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */,
+				163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */,
+				AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */,
+				2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */,
+				8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */,
+				A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */,
+				E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */,
+				F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */,
+				4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */,
+				3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */,
+				2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */,
+				07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE727E2D994D519D8613CC8D6637637D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3629CA560FDEB6A16D70ADD580108B76 /* EventSource.h in Headers */,
+				B9F8CAEC645C1F62D5B3E0B6315EC211 /* KeychainHelper.h in Headers */,
+				935BDAE6A54DD9B5204DA93F5B5E377F /* Particle-SDK-umbrella.h in Headers */,
+				0252F20382DA88C583581C4305530D93 /* Particle-SDK.h in Headers */,
+				6A9D7C4F7E6F86F8D8835F17DC5B176A /* ParticleCloud.h in Headers */,
+				BD7986DD072CE7CF380DF04541AF55A1 /* ParticleDevice.h in Headers */,
+				FD7166C1FA01C602CC24027A9ACCD8C2 /* ParticleErrorHelper.h in Headers */,
+				F77659E80B9D3506DCEB145D863FAE9F /* ParticleEvent.h in Headers */,
+				EBA8260471614F0532CA8E99E318025C /* ParticleLogger.h in Headers */,
+				7AB25CFEC5D0D2B333DAEA01B53751CD /* ParticleNetwork.h in Headers */,
+				E142F14C2AF76FE8C2AD47CBEE4D8196 /* ParticlePricingInfo.h in Headers */,
+				C0FA9736AAE0DFDFF3768C16C7104282 /* ParticleSession.h in Headers */,
+				EAF988F48BAFF8F0D820D8E2B60C5D3D /* ParticleSimInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A4B40CB38ADC88749D1E1C8A945364 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				B9ECBAE3144164158FDC62D90C3CEFDB /* Headers */,
+				6F66130117A5CA2EFE69F1739F512499 /* Sources */,
+				8F9BCCCF510F65077210B8D9944565EC /* Frameworks */,
+				5AAFF4E9A7FD5CC955CC94BDE27FBA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		06F5CDD6235E25837519792853B145A1 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C7148CC41A8E2AE2997FBA410BDDCE /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				544CC0B67376CD04A76B55FA8974F38B /* Headers */,
+				D40A35B0FE6C420CD6BD3A6FD6C3DE47 /* Sources */,
+				0D428E24A60F2BB44F1E7F156C585784 /* Frameworks */,
+				693D6118C8EA30DA148B4891A30AFD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFF71E528A02CBD2D7497ADC845C057 /* Build configuration list for PBXNativeTarget "paper-onboarding" */;
+			buildPhases = (
+				6D37B5C2555F4F5ACBD41A881AF50797 /* Headers */,
+				28B14E019345581A4A106E50E54F7A35 /* Sources */,
+				0995386CC00378FB8BC461EAAD6AC26F /* Frameworks */,
+				9F304C62837AB904FCB12E99521A80D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "paper-onboarding";
+			productName = "paper-onboarding";
+			productReference = BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68AB791372E806C05E7AAFFFF40D6B7F /* Particle-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570DE1DFD5EF2FD7BBD25F8C8FCB7311 /* Build configuration list for PBXNativeTarget "Particle-SDK" */;
+			buildPhases = (
+				EE727E2D994D519D8613CC8D6637637D /* Headers */,
+				EAA484DCA4099351F3703776D1016CF9 /* Sources */,
+				E054AF2278C1FF3E587265CD94626B12 /* Frameworks */,
+				EA4432C4822E0609A9CBDA4A48D5E206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6FCEC5E22F8CAA36F4EF59BA039A55D /* PBXTargetDependency */,
+			);
+			name = "Particle-SDK";
+			productName = "Particle-SDK";
+			productReference = 537FCF32D6E5F7461FEF5787028B14F6 /* Particle_SDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B483472F6440590861262522FEBEA49F /* CardSlider-CardSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA070247889EE5ADF2D8304DFCC8C5A /* Build configuration list for PBXNativeTarget "CardSlider-CardSlider" */;
+			buildPhases = (
+				10305214FA4D8A002236ED7E8E0F5190 /* Sources */,
+				8F5E38EC1399AD620B94DB1C92C79F94 /* Frameworks */,
+				60F3DD18CB3119DBDC57AD5E711336F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardSlider-CardSlider";
+			productName = "CardSlider-CardSlider";
+			productReference = 8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BF82CCBCDDCFB015F09B4CD624935AA6 /* Pods-SmartGreenhouseSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E3C1264D2CF86095BC7AA89BB94037 /* Build configuration list for PBXNativeTarget "Pods-SmartGreenhouseSystem" */;
+			buildPhases = (
+				AFE81AFC607D3C5CA6482929801F5076 /* Headers */,
+				146FA5C4CFD966094600D272F9AC1065 /* Sources */,
+				4B41C0691FC4D926F7F12289EC31B2E7 /* Frameworks */,
+				DA9F64F00A689FB964A2A13EA195580D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91DC07E807E479BEFE719802BFE3246D /* PBXTargetDependency */,
+				82C4888D85FC9868275FD3DB0ABF413C /* PBXTargetDependency */,
+				F3D6720800A2D1BE8CB4C1471806470E /* PBXTargetDependency */,
+				94348CCB7C261CFF306BE58358DB3702 /* PBXTargetDependency */,
+				703BDD90F3ED6058DE5A36BA4DCEC996 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartGreenhouseSystem";
+			productName = "Pods-SmartGreenhouseSystem";
+			productReference = E73B055626208855D7C51B17F5218DB7 /* Pods_SmartGreenhouseSystem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D11B0D1A6986453F8B1B1BACDA442BBA /* CardSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91DBD6E828EAFFFECACD3AD3553751C /* Build configuration list for PBXNativeTarget "CardSlider" */;
+			buildPhases = (
+				A247CFE2245E2C3857CC26A8F46B168C /* Headers */,
+				12AFD3C2928922D0D80B8F750E0D5910 /* Sources */,
+				B7976B6B8534C907A3DBA4EEF2012815 /* Frameworks */,
+				FB4FC1CE9E8E84E41EB478A40503164C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52701C3A968A8497C6D3FCFF64A08DA9 /* PBXTargetDependency */,
+			);
+			name = CardSlider;
+			productName = CardSlider;
+			productReference = EF81FE7FCA7DDB5CBE9366C6E2178F7E /* CardSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D0842B06AB33A2827F7C23ACB132E208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
+				D11B0D1A6986453F8B1B1BACDA442BBA /* CardSlider */,
+				B483472F6440590861262522FEBEA49F /* CardSlider-CardSlider */,
+				092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */,
+				68AB791372E806C05E7AAFFFF40D6B7F /* Particle-SDK */,
+				BF82CCBCDDCFB015F09B4CD624935AA6 /* Pods-SmartGreenhouseSystem */,
+				06F5CDD6235E25837519792853B145A1 /* PureLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AAFF4E9A7FD5CC955CC94BDE27FBA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F3DD18CB3119DBDC57AD5E711336F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4E933B2E86BF5B9A369CE47A6F285D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693D6118C8EA30DA148B4891A30AFD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F304C62837AB904FCB12E99521A80D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9F64F00A689FB964A2A13EA195580D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4432C4822E0609A9CBDA4A48D5E206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4FC1CE9E8E84E41EB478A40503164C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17290FC33443075BAF0FC8C9AD5FB5A2 /* CardSlider.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10305214FA4D8A002236ED7E8E0F5190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AFD3C2928922D0D80B8F750E0D5910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FCBA8A7EE361351C67B5152CBBF049 /* CardsLayout.swift in Sources */,
+				1C13E7DAD57262904BD89025EA55F7A4 /* CardSlider-dummy.m in Sources */,
+				3BFB2C8191ECC7F1CE6F67FAFB22F794 /* CardSliderCell.swift in Sources */,
+				CD6F285642C2D43CCF5A53D4EC0C2BB1 /* CardSliderViewController.swift in Sources */,
+				1CFCD3E6E9128AFAD3AD913F3FF5B289 /* CardTitleView.swift in Sources */,
+				8A8C168707A7BCB611487CD7D2F381DD /* Extensions.swift in Sources */,
+				850C7D03FC3FF12CC0EDEC8AC95B4388 /* RatingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146FA5C4CFD966094600D272F9AC1065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5029402FFD3B21FBE72A127CA3FF00C /* Pods-SmartGreenhouseSystem-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B14E019345581A4A106E50E54F7A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4E8665231216670E0DD1DE32224812 /* Configuring.swift in Sources */,
+				EBA796C399BD028C7BDE122FD28B24FE /* ConstraintsHelper.swift in Sources */,
+				1D8BE755A684FC132E1C0D62AD35A56A /* FillAnimationView.swift in Sources */,
+				B2CE4FC5C310FC8F7FF6B91362C6D513 /* GestureControl.swift in Sources */,
+				07F30B15B1E9FD878007C41ED8B8CCFA /* OnboardingContantViewItem.swift in Sources */,
+				4C615F57B763AA6170BBE5251567F140 /* OnboardingContentView.swift in Sources */,
+				4F17055D20B820F265F0C174C67CA94B /* PageContainer.swift in Sources */,
+				1E43AD13C988387C35D65D341FA2A8C8 /* PageView.swift in Sources */,
+				77F112403440A7419C4880CABD38A962 /* PageViewItem.swift in Sources */,
+				223F3449974BEA68231F1EA9C6E1FE8D /* paper-onboarding-dummy.m in Sources */,
+				2389208835126ADD6B969F7031EBFDCB /* PaperOnboarding.swift in Sources */,
+				F3513898978812B5DB65771F46CF7707 /* PaperOnboardingDataSource.swift in Sources */,
+				7D669CE134F23BB348238F83F58F94D5 /* PaperOnboardingDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F66130117A5CA2EFE69F1739F512499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */,
+				8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */,
+				B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */,
+				9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */,
+				2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */,
+				A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */,
+				BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */,
+				828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */,
+				76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */,
+				FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */,
+				232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */,
+				02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */,
+				01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */,
+				951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40A35B0FE6C420CD6BD3A6FD6C3DE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E11860B6F9BDC73E00A1AF0116A0BA /* ALView+PureLayout.m in Sources */,
+				AE028A669BDCC596930B9CD7B34C231D /* NSArray+PureLayout.m in Sources */,
+				DBF45D59546F58E4F8118B65DBC9B0F4 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				CAEF5A694258EA759B5AC90CBEB72CCC /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA484DCA4099351F3703776D1016CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698DFA2765BCDC8A8FC28BBD30A2FAEA /* EventSource.m in Sources */,
+				FBFF936AC4692F680B0CE4C48E03075E /* KeychainHelper.m in Sources */,
+				800CFEFCE558037232F0D4B74482B1CC /* Particle-SDK-dummy.m in Sources */,
+				5375686013BA9E965568C1891BB83646 /* ParticleCloud.m in Sources */,
+				A0D8D3FD0336C1D28B13B3A8750FC96E /* ParticleDevice.m in Sources */,
+				85B7D4CC16CA8F57ECD657D8C32CC49C /* ParticleErrorHelper.m in Sources */,
+				8877F6446370CF613DEEDAB4073066E4 /* ParticleEvent.m in Sources */,
+				CA711B2A0B1CD99B804DE69299076E4B /* ParticleLogger.m in Sources */,
+				3C14F08D54A2BDCEA962BB458FE481C2 /* ParticleNetwork.m in Sources */,
+				8549CAD92619492F273BABB466AD094A /* ParticlePricingInfo.m in Sources */,
+				9FBF51004CE61AB63E7B80C6D8DA4821 /* ParticleSession.m in Sources */,
+				8A95FD8BC1F3A1667540F63F499B53C2 /* ParticleSimInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52701C3A968A8497C6D3FCFF64A08DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CardSlider-CardSlider";
+			target = B483472F6440590861262522FEBEA49F /* CardSlider-CardSlider */;
+			targetProxy = 412BDEB902EE5611F9BDB0CF2796DF0F /* PBXContainerItemProxy */;
+		};
+		703BDD90F3ED6058DE5A36BA4DCEC996 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "paper-onboarding";
+			target = 092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */;
+			targetProxy = F945CF41DEE4D0D49AC99D278C69C5F5 /* PBXContainerItemProxy */;
+		};
+		82C4888D85FC9868275FD3DB0ABF413C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CardSlider;
+			target = D11B0D1A6986453F8B1B1BACDA442BBA /* CardSlider */;
+			targetProxy = 6E298BC17D054EEB33C6579AAF096B25 /* PBXContainerItemProxy */;
+		};
+		91DC07E807E479BEFE719802BFE3246D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = C078E1A2D692E8B807FFF6B05BD5019D /* PBXContainerItemProxy */;
+		};
+		94348CCB7C261CFF306BE58358DB3702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
+			targetProxy = AFF311D69A47F25CDE94ABFC6129E0BD /* PBXContainerItemProxy */;
+		};
+		F3D6720800A2D1BE8CB4C1471806470E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Particle-SDK";
+			target = 68AB791372E806C05E7AAFFFF40D6B7F /* Particle-SDK */;
+			targetProxy = E78C73756751D3ECA63CA7364066F0EB /* PBXContainerItemProxy */;
+		};
+		F6FCEC5E22F8CAA36F4EF59BA039A55D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = FA5CB79719B0EF27D0B1785DEB3C2AB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C1F8708DDD2C73945DB9A14DBBFA799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BB34C69CFEA61AE5928B44AB31710D /* CardSlider.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CardSlider/CardSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CardSlider/CardSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CardSlider/CardSlider.modulemap";
+				PRODUCT_MODULE_NAME = CardSlider;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0CA1948A56E0B4B3F7818EA13D7D5F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109065C19EB64FD9329BF06306F9A1CA /* CardSlider.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CardSlider";
+				IBSC_MODULE = CardSlider;
+				INFOPLIST_FILE = "Target Support Files/CardSlider/ResourceBundle-CardSlider-CardSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1D7F9603126241787B024AAB354C1037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFC27CA45BB2AC1880C7819CDBA5FC1 /* Pods-SmartGreenhouseSystem.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartGreenhouseSystem/Pods-SmartGreenhouseSystem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartGreenhouseSystem/Pods-SmartGreenhouseSystem.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26673A68E866758E420E4ABBE0C64201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279937B36EE4AFFE8F78A739F06510BD /* PureLayout.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43BA5BF07A6832300CCC5A128B58275A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED9B59B86CFE33C625373A4D0ECE259 /* Pods-SmartGreenhouseSystem.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartGreenhouseSystem/Pods-SmartGreenhouseSystem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartGreenhouseSystem/Pods-SmartGreenhouseSystem.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63532A1B0FE300C4181F168F0D531663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109065C19EB64FD9329BF06306F9A1CA /* CardSlider.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CardSlider/CardSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CardSlider/CardSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CardSlider/CardSlider.modulemap";
+				PRODUCT_MODULE_NAME = CardSlider;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		976AE85EDB1F4A00F208EB2FB0B5EEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9938033ABCD954DA6F4FA268DE5956C /* AFNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BA2C42307747AFA7BF3326FF5F360ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC256305050F26291FBE55997F488DD /* Particle-SDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Particle-SDK/Particle-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Particle-SDK/Particle-SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Particle-SDK/Particle-SDK.modulemap";
+				PRODUCT_MODULE_NAME = Particle_SDK;
+				PRODUCT_NAME = Particle_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A463168A6C8FADA9D30FAFE4978DA1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BB34C69CFEA61AE5928B44AB31710D /* CardSlider.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CardSlider";
+				IBSC_MODULE = CardSlider;
+				INFOPLIST_FILE = "Target Support Files/CardSlider/ResourceBundle-CardSlider-CardSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A609AE5E3CDF524AC6213A07F162FE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D02F3F061394A3718539F4E78BB0A81 /* Particle-SDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Particle-SDK/Particle-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Particle-SDK/Particle-SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Particle-SDK/Particle-SDK.modulemap";
+				PRODUCT_MODULE_NAME = Particle_SDK;
+				PRODUCT_NAME = Particle_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B516657C930BC3085EE627ABE74CD048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819E393A0DBB46D22A1C377C3D69D3FF /* AFNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB37407EDA5BD15F2FFB2705DAC56101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9614650D84149CC28DBCFBED644F81 /* PureLayout.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1D6549C4C52DF8C7FAC93A61F1D446E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCDB466C8B1AD1C69B1A05B8F2F48E66 /* paper-onboarding.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paper-onboarding/paper-onboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paper-onboarding/paper-onboarding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/paper-onboarding/paper-onboarding.modulemap";
+				PRODUCT_MODULE_NAME = paper_onboarding;
+				PRODUCT_NAME = paper_onboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FAA59246C13A58B85F1EC74A7ADF88DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA008B2BCE0099C10C94E16540290123 /* paper-onboarding.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paper-onboarding/paper-onboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paper-onboarding/paper-onboarding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/paper-onboarding/paper-onboarding.modulemap";
+				PRODUCT_MODULE_NAME = paper_onboarding;
+				PRODUCT_NAME = paper_onboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570DE1DFD5EF2FD7BBD25F8C8FCB7311 /* Build configuration list for PBXNativeTarget "Particle-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A609AE5E3CDF524AC6213A07F162FE35 /* Debug */,
+				9BA2C42307747AFA7BF3326FF5F360ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA070247889EE5ADF2D8304DFCC8C5A /* Build configuration list for PBXNativeTarget "CardSlider-CardSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A463168A6C8FADA9D30FAFE4978DA1B5 /* Debug */,
+				0CA1948A56E0B4B3F7818EA13D7D5F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C7148CC41A8E2AE2997FBA410BDDCE /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26673A68E866758E420E4ABBE0C64201 /* Debug */,
+				DB37407EDA5BD15F2FFB2705DAC56101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFF71E528A02CBD2D7497ADC845C057 /* Build configuration list for PBXNativeTarget "paper-onboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D6549C4C52DF8C7FAC93A61F1D446E /* Debug */,
+				FAA59246C13A58B85F1EC74A7ADF88DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A4B40CB38ADC88749D1E1C8A945364 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976AE85EDB1F4A00F208EB2FB0B5EEEA /* Debug */,
+				B516657C930BC3085EE627ABE74CD048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E3C1264D2CF86095BC7AA89BB94037 /* Build configuration list for PBXNativeTarget "Pods-SmartGreenhouseSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7F9603126241787B024AAB354C1037 /* Debug */,
+				43BA5BF07A6832300CCC5A128B58275A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91DBD6E828EAFFFECACD3AD3553751C /* Build configuration list for PBXNativeTarget "CardSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1F8708DDD2C73945DB9A14DBBFA799 /* Debug */,
+				63532A1B0FE300C4181F168F0D531663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

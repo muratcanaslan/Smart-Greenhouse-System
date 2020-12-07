@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-SmartGreenhouseSystem/Pods-SmartGreenhouseSystem-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/CardSlider/CardSlider.framework
+${BUILT_PRODUCTS_DIR}/Particle-SDK/Particle_SDK.framework
+${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework
+${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework

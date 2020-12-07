@@ -3,27 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E2EE57896B717A75C8218F1 /* Pods_SmartGreenhouseSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D4127FD697D46061492772 /* Pods_SmartGreenhouseSystem.framework */; };
 		974F33D425695B5D00A8BB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F33D325695B5D00A8BB42 /* AppDelegate.swift */; };
 		974F33D625695B5D00A8BB42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F33D525695B5D00A8BB42 /* SceneDelegate.swift */; };
 		974F33D825695B5D00A8BB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F33D725695B5D00A8BB42 /* ViewController.swift */; };
-		974F33DB25695B5D00A8BB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974F33D925695B5D00A8BB42 /* Main.storyboard */; };
 		974F33DD25695B5E00A8BB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974F33DC25695B5E00A8BB42 /* Assets.xcassets */; };
 		974F33E025695B5E00A8BB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974F33DE25695B5E00A8BB42 /* LaunchScreen.storyboard */; };
+		974F33F725695D8200A8BB42 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F33F625695D8200A8BB42 /* Device.swift */; };
+		974F340B25698F2900A8BB42 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F340A25698F2900A8BB42 /* WelcomeViewController.swift */; };
+		974F340E2569ACBC00A8BB42 /* ScreenBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F340D2569ACBC00A8BB42 /* ScreenBoardViewController.swift */; };
+		974F341B256A5F9000A8BB42 /* MonitoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F341A256A5F9000A8BB42 /* MonitoringViewController.swift */; };
+		974F341E256A5FAC00A8BB42 /* ControllingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F341D256A5FAC00A8BB42 /* ControllingViewController.swift */; };
+		974F3421256A5FB600A8BB42 /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F3420256A5FB600A8BB42 /* VoiceViewController.swift */; };
+		974F3425256A5FCC00A8BB42 /* RoofControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F3424256A5FCC00A8BB42 /* RoofControlViewController.swift */; };
+		974F3429256A5FE400A8BB42 /* ProfileSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F3428256A5FE400A8BB42 /* ProfileSettingsViewController.swift */; };
+		974F3433256A6D8F00A8BB42 /* MonitoringCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F3432256A6D8F00A8BB42 /* MonitoringCollectionViewCell.swift */; };
+		97ED2FF3256EF83B00B4F4A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97ED2FF2256EF83B00B4F4A9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41D4127FD697D46061492772 /* Pods_SmartGreenhouseSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartGreenhouseSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		974F33D025695B5D00A8BB42 /* SmartGreenhouseSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGreenhouseSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		974F33D325695B5D00A8BB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		974F33D525695B5D00A8BB42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		974F33D725695B5D00A8BB42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		974F33DA25695B5D00A8BB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		974F33DC25695B5E00A8BB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		974F33DF25695B5E00A8BB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		974F33E125695B5E00A8BB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974F33E925695C0400A8BB42 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		974F33F625695D8200A8BB42 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		974F340A25698F2900A8BB42 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		974F340D2569ACBC00A8BB42 /* ScreenBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScreenBoardViewController.swift; path = SmartGreenhouseSystem/ScreenBoardViewController.swift; sourceTree = SOURCE_ROOT; };
+		974F341A256A5F9000A8BB42 /* MonitoringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringViewController.swift; sourceTree = "<group>"; };
+		974F341D256A5FAC00A8BB42 /* ControllingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingViewController.swift; sourceTree = "<group>"; };
+		974F3420256A5FB600A8BB42 /* VoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
+		974F3424256A5FCC00A8BB42 /* RoofControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofControlViewController.swift; sourceTree = "<group>"; };
+		974F3428256A5FE400A8BB42 /* ProfileSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsViewController.swift; sourceTree = "<group>"; };
+		974F3432256A6D8F00A8BB42 /* MonitoringCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MonitoringCollectionViewCell.swift; path = SmartGreenhouseSystem/ViewControllers/MonitoringCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		97ED2FF2256EF83B00B4F4A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BE651DDFC9107F93118EE754 /* Pods-SmartGreenhouseSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartGreenhouseSystem.debug.xcconfig"; path = "Target Support Files/Pods-SmartGreenhouseSystem/Pods-SmartGreenhouseSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		DE8AF80C4D83DAD500AF0EF7 /* Pods-SmartGreenhouseSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartGreenhouseSystem.release.xcconfig"; path = "Target Support Files/Pods-SmartGreenhouseSystem/Pods-SmartGreenhouseSystem.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2EE57896B717A75C8218F1 /* Pods_SmartGreenhouseSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64DBB8B54B6856B0C7D17044 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE651DDFC9107F93118EE754 /* Pods-SmartGreenhouseSystem.debug.xcconfig */,
+				DE8AF80C4D83DAD500AF0EF7 /* Pods-SmartGreenhouseSystem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		974F33C725695B5D00A8BB42 = {
 			isa = PBXGroup;
 			children = (
 				974F33D225695B5D00A8BB42 /* SmartGreenhouseSystem */,
 				974F33D125695B5D00A8BB42 /* Products */,
+				64DBB8B54B6856B0C7D17044 /* Pods */,
+				B9757B03B66569049BF5E009 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,57 @@
 		974F33D225695B5D00A8BB42 /* SmartGreenhouseSystem */ = {
 			isa = PBXGroup;
 			children = (
+				974F3435256A9AFE00A8BB42 /* Device */,
+				974F340725698D5D00A8BB42 /* ViewControllers */,
+				974F33F525695D6100A8BB42 /* Views */,
+				974F33E925695C0400A8BB42 /* Bridging-Header.h */,
 				974F33D325695B5D00A8BB42 /* AppDelegate.swift */,
+				97ED2FF2256EF83B00B4F4A9 /* Main.storyboard */,
 				974F33D525695B5D00A8BB42 /* SceneDelegate.swift */,
-				974F33D725695B5D00A8BB42 /* ViewController.swift */,
-				974F33D925695B5D00A8BB42 /* Main.storyboard */,
 				974F33DC25695B5E00A8BB42 /* Assets.xcassets */,
 				974F33DE25695B5E00A8BB42 /* LaunchScreen.storyboard */,
 				974F33E125695B5E00A8BB42 /* Info.plist */,
 			);
 			path = SmartGreenhouseSystem;
+			sourceTree = "<group>";
+		};
+		974F33F525695D6100A8BB42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				974F3432256A6D8F00A8BB42 /* MonitoringCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		974F340725698D5D00A8BB42 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				974F340D2569ACBC00A8BB42 /* ScreenBoardViewController.swift */,
+				974F33D725695B5D00A8BB42 /* ViewController.swift */,
+				974F340A25698F2900A8BB42 /* WelcomeViewController.swift */,
+				974F341A256A5F9000A8BB42 /* MonitoringViewController.swift */,
+				974F341D256A5FAC00A8BB42 /* ControllingViewController.swift */,
+				974F3420256A5FB600A8BB42 /* VoiceViewController.swift */,
+				974F3424256A5FCC00A8BB42 /* RoofControlViewController.swift */,
+				974F3428256A5FE400A8BB42 /* ProfileSettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		974F3435256A9AFE00A8BB42 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				974F33F625695D8200A8BB42 /* Device.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		B9757B03B66569049BF5E009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41D4127FD697D46061492772 /* Pods_SmartGreenhouseSystem.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 974F33E425695B5E00A8BB42 /* Build configuration list for PBXNativeTarget "SmartGreenhouseSystem" */;
 			buildPhases = (
+				6E02837CC5245BE35341E729 /* [CP] Check Pods Manifest.lock */,
 				974F33CC25695B5D00A8BB42 /* Sources */,
 				974F33CD25695B5D00A8BB42 /* Frameworks */,
 				974F33CE25695B5D00A8BB42 /* Resources */,
+				44CD90DD0007FB72BE8BEB78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +203,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97ED2FF3256EF83B00B4F4A9 /* Main.storyboard in Resources */,
 				974F33E025695B5E00A8BB42 /* LaunchScreen.storyboard in Resources */,
 				974F33DD25695B5E00A8BB42 /* Assets.xcassets in Resources */,
-				974F33DB25695B5D00A8BB42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44CD90DD0007FB72BE8BEB78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartGreenhouseSystem/Pods-SmartGreenhouseSystem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartGreenhouseSystem/Pods-SmartGreenhouseSystem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartGreenhouseSystem/Pods-SmartGreenhouseSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E02837CC5245BE35341E729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartGreenhouseSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		974F33CC25695B5D00A8BB42 /* Sources */ = {
@@ -138,22 +259,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				974F33D825695B5D00A8BB42 /* ViewController.swift in Sources */,
+				974F340E2569ACBC00A8BB42 /* ScreenBoardViewController.swift in Sources */,
+				974F3425256A5FCC00A8BB42 /* RoofControlViewController.swift in Sources */,
+				974F340B25698F2900A8BB42 /* WelcomeViewController.swift in Sources */,
 				974F33D425695B5D00A8BB42 /* AppDelegate.swift in Sources */,
+				974F341E256A5FAC00A8BB42 /* ControllingViewController.swift in Sources */,
+				974F3433256A6D8F00A8BB42 /* MonitoringCollectionViewCell.swift in Sources */,
+				974F3421256A5FB600A8BB42 /* VoiceViewController.swift in Sources */,
+				974F3429256A5FE400A8BB42 /* ProfileSettingsViewController.swift in Sources */,
+				974F341B256A5F9000A8BB42 /* MonitoringViewController.swift in Sources */,
 				974F33D625695B5D00A8BB42 /* SceneDelegate.swift in Sources */,
+				974F33F725695D8200A8BB42 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		974F33D925695B5D00A8BB42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				974F33DA25695B5D00A8BB42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		974F33DE25695B5E00A8BB42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +405,7 @@
 		};
 		974F33E525695B5E00A8BB42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE651DDFC9107F93118EE754 /* Pods-SmartGreenhouseSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +424,7 @@
 		};
 		974F33E625695B5E00A8BB42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8AF80C4D83DAD500AF0EF7 /* Pods-SmartGreenhouseSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

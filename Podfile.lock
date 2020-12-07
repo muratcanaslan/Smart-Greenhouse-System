@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CardSlider (0.1.0)
+  - paper-onboarding (6.1.5)
+  - Particle-SDK (1.0.5):
+    - Particle-SDK/Helpers (= 1.0.5)
+    - Particle-SDK/SDK (= 1.0.5)
+  - Particle-SDK/Helpers (1.0.5):
+    - AFNetworking (~> 4.0)
+  - Particle-SDK/SDK (1.0.5):
+    - AFNetworking (~> 4.0)
+    - Particle-SDK/Helpers
+  - PureLayout (3.1.6)
+
+DEPENDENCIES:
+  - CardSlider
+  - paper-onboarding
+  - Particle-SDK
+  - PureLayout
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CardSlider
+    - paper-onboarding
+    - Particle-SDK
+    - PureLayout
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CardSlider: 0a8f5f17f5a76701771794b07fdaeddc512358c8
+  paper-onboarding: fede1799b1da6988f3788e3b71654583c6f3bce1
+  Particle-SDK: cdda539eeb1e5464950657dff46e22ffc42c9525
+  PureLayout: bd3c4ec3a3819ad387c99ebb72c6b129c3ed4d2d
+
+PODFILE CHECKSUM: 205e88c036e10cb18987ad24d8a3e8a5e9f5a8c8
+
+COCOAPODS: 1.9.3
