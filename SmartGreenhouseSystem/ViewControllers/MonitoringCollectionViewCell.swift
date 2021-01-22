@@ -81,7 +81,7 @@ class MonitoringCollectionViewCell: UICollectionViewCell {
         cellTitleLabel.text = cellData.cellTitle
         
         if cellData.cellTitle == "Temperature" {
-            cellValueLabel.text = String(format: "%2.1f", cellData.cellValue)
+            cellValueLabel.text = String(format: "%2.1f", cellData.cellValue) + "℃"
         }else{
             cellValueLabel.text = String(format: "%2.1f", cellData.cellValue)
         }
@@ -108,9 +108,9 @@ class MonitoringCollectionViewCell: UICollectionViewCell {
         }
         
         if cellData.cellTitle == "Fire"{
-            if cellData.cellValue > 30 {
-                cellValueLabel.textColor = .red
+            if cellData.cellValue > 85 {
                 cellValueLabel.text = "FIRE !"
+                cellValueLabel.textColor = UIColor.red
                 cellValueLabel.font = cellValueLabel.font.withSize(17)
 
             }else{
@@ -128,22 +128,24 @@ class MonitoringCollectionViewCell: UICollectionViewCell {
             switch cellData.cellValue {
             case 0...70:
                 cellValueLabel.font = cellValueLabel.font.withSize(17)
-                cellValueLabel.text = "No rain"
+                cellValueLabel.text = "Rain"
+                cellValueLabel.textColor = .blue
             case 71...100:
                 cellValueLabel.font = cellValueLabel.font.withSize(17)
-                cellValueLabel.textColor = .blue
-                cellValueLabel.text = "Rain"
+                cellValueLabel.textColor = .black
+                cellValueLabel.text = "No Rain"
             default:
                 print("Cant read rain rate.")
             }
         }
         
         if cellData.cellTitle == "Water Level" {
-            if cellData.cellValue < 50 {
+            if cellData.cellValue < 20 {
                 cellValueLabel.textColor = .red
                 
+                
             }else{
-                cellValueLabel.textColor = .black
+                cellValueLabel.textColor = .blue
             }
         }else{
             cellValueLabel.textColor = .black
@@ -151,12 +153,13 @@ class MonitoringCollectionViewCell: UICollectionViewCell {
         
         if cellData.cellTitle == "Time" {
             if cellData.cellValue < 50{
-                cellValueLabel.text = "Night"
+                cellValueLabel.text = "Day"
+                cellValueLabel.textColor = .blue
                 cellValueLabel.font = cellValueLabel.font.withSize(17)
 
             }
             else{
-                cellValueLabel.text = "Day"
+                cellValueLabel.text = "Night"
                 cellValueLabel.font = cellValueLabel.font.withSize(17)
 
             }

@@ -76,13 +76,6 @@ class ControllingViewController: UIViewController {
         systemLightingView.layer.borderWidth = 4
         systemLightingView.layer.cornerRadius = 10
         systemLightingView.layer.borderColor = CGColor(red: 0.0, green: 0.17, blue: 0.07, alpha: 1)
-        
-        
-        
-        
-        
-        
-       
     }
     @IBAction func buzzerOnOffButton(_ sender: Any) {
         if isBuzzerSet{
